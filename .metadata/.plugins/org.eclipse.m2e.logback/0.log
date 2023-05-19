@@ -813,3 +813,677 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-05-18 18:05:33,919 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2023-05-18 18:05:40,350 [Worker-44: Launching citibank-wallet-service-demo (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-wallet-service-demo.zip_expanded\citibank-wallet-service-demo":
 2023-05-18 18:05:40,350 [Worker-44: Launching citibank-wallet-service-demo (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always package
+2023-05-19 14:59:21,235 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-19 14:59:41,812 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citibank:citibank-zuulapi-gateway-app:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-zuulapi-gateway-app.zip_expanded\citibank-zuulapi-gateway-app\pom.xml.
+2023-05-19 14:59:42,578 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.7.12/spring-boot-starter-actuator-2.7.12.pom
+2023-05-19 14:59:42,677 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.7.12/spring-boot-starter-actuator-2.7.12.pom
+2023-05-19 14:59:44,388 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.12/spring-boot-actuator-autoconfigure-2.7.12.pom
+2023-05-19 14:59:44,514 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.12/spring-boot-actuator-autoconfigure-2.7.12.pom
+2023-05-19 14:59:44,561 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.7.12/spring-boot-actuator-2.7.12.pom
+2023-05-19 14:59:44,668 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.7.12/spring-boot-actuator-2.7.12.pom
+2023-05-19 14:59:45,205 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.11/micrometer-core-1.9.11.pom
+2023-05-19 14:59:45,369 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.11/micrometer-core-1.9.11.pom
+2023-05-19 14:59:56,399 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.7.12/spring-boot-starter-actuator-2.7.12.jar
+2023-05-19 14:59:56,410 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.12/spring-boot-actuator-autoconfigure-2.7.12.jar
+2023-05-19 14:59:56,573 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.11/micrometer-core-1.9.11.jar
+2023-05-19 14:59:56,574 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.7.12/spring-boot-actuator-2.7.12.jar
+2023-05-19 14:59:56,827 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.7.12/spring-boot-starter-actuator-2.7.12.jar
+2023-05-19 14:59:57,014 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.12/spring-boot-actuator-autoconfigure-2.7.12.jar
+2023-05-19 14:59:57,118 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.11/micrometer-core-1.9.11.jar
+2023-05-19 14:59:57,119 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.7.12/spring-boot-actuator-2.7.12.jar
+2023-05-19 15:00:17,880 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.7.12/spring-boot-starter-actuator-2.7.12-sources.jar
+2023-05-19 15:00:18,512 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/2.7.12/spring-boot-starter-actuator-2.7.12-sources.jar
+2023-05-19 15:00:18,571 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-actuator:2.7.12
+2023-05-19 15:00:18,712 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.12/spring-boot-actuator-autoconfigure-2.7.12-sources.jar
+2023-05-19 15:00:19,051 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.12/spring-boot-actuator-autoconfigure-2.7.12-sources.jar
+2023-05-19 15:00:19,062 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator-autoconfigure:2.7.12
+2023-05-19 15:00:19,260 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.7.12/spring-boot-actuator-2.7.12-sources.jar
+2023-05-19 15:00:20,075 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/2.7.12/spring-boot-actuator-2.7.12-sources.jar
+2023-05-19 15:00:20,097 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator:2.7.12
+2023-05-19 15:00:20,404 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.11/micrometer-core-1.9.11-sources.jar
+2023-05-19 15:00:22,371 [Worker-18: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.11/micrometer-core-1.9.11-sources.jar
+2023-05-19 15:00:22,381 [Worker-18: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-core:1.9.11
+2023-05-19 15:00:23,664 [Worker-16: Building] WARN  Sisu - Error injecting: org.apache.maven.plugins.resources.ResourcesMojo
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) Error injecting: protected org.apache.maven.shared.filtering.MavenResourcesFiltering org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering
+  while locating org.apache.maven.plugins.resources.ResourcesMojo
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeMojo(MavenExecutionContext.java:331)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.lambda$0(MavenExecutionContext.java:290)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:289)
+	at org.eclipse.m2e.core.project.configurator.MojoExecutionBuildParticipant.build(MojoExecutionBuildParticipant.java:57)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:167)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:196)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Can not set org.apache.maven.shared.filtering.MavenResourcesFiltering field org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering to org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+	at java.base/java.lang.reflect.Field.set(Field.java:799)
+	at org.eclipse.sisu.bean.BeanPropertyField.set(BeanPropertyField.java:74)
+	at org.eclipse.sisu.plexus.ProvidedPropertyBinding.injectProperty(ProvidedPropertyBinding.java:48)
+	at org.eclipse.sisu.bean.BeanInjector.injectMembers(BeanInjector.java:52)
+	at com.google.inject.internal.MembersInjectorImpl.injectMembers(MembersInjectorImpl.java:160)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:124)
+	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
+	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	... 49 common frames omitted
+2023-05-19 15:00:23,693 [Worker-16: Building] WARN  Sisu - Error injecting: org.apache.maven.plugins.resources.TestResourcesMojo
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) Error injecting: protected org.apache.maven.shared.filtering.MavenResourcesFiltering org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering
+  while locating org.apache.maven.plugins.resources.TestResourcesMojo
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeMojo(MavenExecutionContext.java:331)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.lambda$0(MavenExecutionContext.java:290)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:289)
+	at org.eclipse.m2e.core.project.configurator.MojoExecutionBuildParticipant.build(MojoExecutionBuildParticipant.java:57)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:167)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:196)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Can not set org.apache.maven.shared.filtering.MavenResourcesFiltering field org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering to org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+	at java.base/java.lang.reflect.Field.set(Field.java:799)
+	at org.eclipse.sisu.bean.BeanPropertyField.set(BeanPropertyField.java:74)
+	at org.eclipse.sisu.plexus.ProvidedPropertyBinding.injectProperty(ProvidedPropertyBinding.java:48)
+	at org.eclipse.sisu.bean.BeanInjector.injectMembers(BeanInjector.java:52)
+	at com.google.inject.internal.MembersInjectorImpl.injectMembers(MembersInjectorImpl.java:160)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:124)
+	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
+	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	... 49 common frames omitted
+2023-05-19 15:00:32,015 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-19 15:00:41,402 [Worker-19: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /citibank-zuulapi-gateway-app/src/main/java
+2023-05-19 15:00:41,406 [Worker-19: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /citibank-zuulapi-gateway-app/src/main/resources
+2023-05-19 15:00:41,964 [Worker-19: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /citibank-zuulapi-gateway-app/src/main/resources
+2023-05-19 15:00:42,145 [Worker-19: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /citibank-zuulapi-gateway-app/src/test/java
+2023-05-19 15:00:47,754 [Worker-20: Building] WARN  Sisu - Error injecting: org.apache.maven.plugins.resources.ResourcesMojo
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) Error injecting: protected org.apache.maven.shared.filtering.MavenResourcesFiltering org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering
+  while locating org.apache.maven.plugins.resources.ResourcesMojo
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeMojo(MavenExecutionContext.java:331)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.lambda$0(MavenExecutionContext.java:290)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:289)
+	at org.eclipse.m2e.core.project.configurator.MojoExecutionBuildParticipant.build(MojoExecutionBuildParticipant.java:57)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:167)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:196)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Can not set org.apache.maven.shared.filtering.MavenResourcesFiltering field org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering to org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+	at java.base/java.lang.reflect.Field.set(Field.java:799)
+	at org.eclipse.sisu.bean.BeanPropertyField.set(BeanPropertyField.java:74)
+	at org.eclipse.sisu.plexus.ProvidedPropertyBinding.injectProperty(ProvidedPropertyBinding.java:48)
+	at org.eclipse.sisu.bean.BeanInjector.injectMembers(BeanInjector.java:52)
+	at com.google.inject.internal.MembersInjectorImpl.injectMembers(MembersInjectorImpl.java:160)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:124)
+	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
+	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	... 49 common frames omitted
+2023-05-19 15:00:47,766 [Worker-20: Building] WARN  Sisu - Error injecting: org.apache.maven.plugins.resources.TestResourcesMojo
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) Error injecting: protected org.apache.maven.shared.filtering.MavenResourcesFiltering org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering
+  while locating org.apache.maven.plugins.resources.TestResourcesMojo
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeMojo(MavenExecutionContext.java:331)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.lambda$0(MavenExecutionContext.java:290)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:289)
+	at org.eclipse.m2e.core.project.configurator.MojoExecutionBuildParticipant.build(MojoExecutionBuildParticipant.java:57)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:167)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:196)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Can not set org.apache.maven.shared.filtering.MavenResourcesFiltering field org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering to org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+	at java.base/java.lang.reflect.Field.set(Field.java:799)
+	at org.eclipse.sisu.bean.BeanPropertyField.set(BeanPropertyField.java:74)
+	at org.eclipse.sisu.plexus.ProvidedPropertyBinding.injectProperty(ProvidedPropertyBinding.java:48)
+	at org.eclipse.sisu.bean.BeanInjector.injectMembers(BeanInjector.java:52)
+	at com.google.inject.internal.MembersInjectorImpl.injectMembers(MembersInjectorImpl.java:160)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:124)
+	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
+	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	... 49 common frames omitted
+2023-05-19 15:00:48,371 [Worker-19: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 56.00 sec, update config takes 30.00 sec 
+2023-05-19 15:00:50,070 [Worker-6: Building] WARN  Sisu - Error injecting: org.apache.maven.plugins.resources.ResourcesMojo
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) Error injecting: protected org.apache.maven.shared.filtering.MavenResourcesFiltering org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering
+  while locating org.apache.maven.plugins.resources.ResourcesMojo
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeMojo(MavenExecutionContext.java:331)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.lambda$0(MavenExecutionContext.java:290)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:289)
+	at org.eclipse.m2e.core.project.configurator.MojoExecutionBuildParticipant.build(MojoExecutionBuildParticipant.java:57)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:167)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:196)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Can not set org.apache.maven.shared.filtering.MavenResourcesFiltering field org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering to org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+	at java.base/java.lang.reflect.Field.set(Field.java:799)
+	at org.eclipse.sisu.bean.BeanPropertyField.set(BeanPropertyField.java:74)
+	at org.eclipse.sisu.plexus.ProvidedPropertyBinding.injectProperty(ProvidedPropertyBinding.java:48)
+	at org.eclipse.sisu.bean.BeanInjector.injectMembers(BeanInjector.java:52)
+	at com.google.inject.internal.MembersInjectorImpl.injectMembers(MembersInjectorImpl.java:160)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:124)
+	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
+	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	... 49 common frames omitted
+2023-05-19 15:00:50,080 [Worker-6: Building] WARN  Sisu - Error injecting: org.apache.maven.plugins.resources.TestResourcesMojo
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) Error injecting: protected org.apache.maven.shared.filtering.MavenResourcesFiltering org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering
+  while locating org.apache.maven.plugins.resources.TestResourcesMojo
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeMojo(MavenExecutionContext.java:331)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.lambda$0(MavenExecutionContext.java:290)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:289)
+	at org.eclipse.m2e.core.project.configurator.MojoExecutionBuildParticipant.build(MojoExecutionBuildParticipant.java:57)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:167)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:227)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:364)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:196)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.IllegalArgumentException: Can not set org.apache.maven.shared.filtering.MavenResourcesFiltering field org.apache.maven.plugins.resources.ResourcesMojo.mavenResourcesFiltering to org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)
+	at java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)
+	at java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)
+	at java.base/java.lang.reflect.Field.set(Field.java:799)
+	at org.eclipse.sisu.bean.BeanPropertyField.set(BeanPropertyField.java:74)
+	at org.eclipse.sisu.plexus.ProvidedPropertyBinding.injectProperty(ProvidedPropertyBinding.java:48)
+	at org.eclipse.sisu.bean.BeanInjector.injectMembers(BeanInjector.java:52)
+	at com.google.inject.internal.MembersInjectorImpl.injectMembers(MembersInjectorImpl.java:160)
+	at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:124)
+	at com.google.inject.internal.ConstructorInjector.access$000(ConstructorInjector.java:32)
+	at com.google.inject.internal.ConstructorInjector$1.call(ConstructorInjector.java:98)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:93)
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:306)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	... 49 common frames omitted
+2023-05-19 15:03:34,579 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citibank:citibank-zuulapi-gateway-app:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-zuulapi-gateway-app.zip_expanded\citibank-zuulapi-gateway-app\pom.xml.
+2023-05-19 15:03:46,936 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:03:46,944 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:03:46,945 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:03:46,960 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:03:46,961 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-zuulapi-gateway-app.zip_expanded\citibank-zuulapi-gateway-app\src\test\resources
+2023-05-19 15:03:55,798 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-19 15:03:57,504 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citibank:citibank-zuulapi-gateway-app:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-zuulapi-gateway-app.zip_expanded\citibank-zuulapi-gateway-app\pom.xml.
+2023-05-19 15:04:03,974 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /citibank-zuulapi-gateway-app/src/main/java
+2023-05-19 15:04:03,976 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /citibank-zuulapi-gateway-app/src/main/resources
+2023-05-19 15:04:03,980 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /citibank-zuulapi-gateway-app/src/main/resources
+2023-05-19 15:04:03,982 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /citibank-zuulapi-gateway-app/src/test/java
+2023-05-19 15:04:09,385 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 7.00 sec, update config takes 5.00 sec 
+2023-05-19 15:04:09,492 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-19 15:04:13,043 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.citibank:citibank-zuulapi-gateway-app:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-zuulapi-gateway-app.zip_expanded\citibank-zuulapi-gateway-app\pom.xml.
+2023-05-19 15:04:17,763 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /citibank-zuulapi-gateway-app/src/main/java
+2023-05-19 15:04:17,764 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /citibank-zuulapi-gateway-app/src/main/resources
+2023-05-19 15:04:17,767 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /citibank-zuulapi-gateway-app/src/main/resources
+2023-05-19 15:04:17,769 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /citibank-zuulapi-gateway-app/src/test/java
+2023-05-19 15:04:20,480 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 7.00 sec, update config takes 2.00 sec 
+2023-05-19 15:28:09,780 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-05-19 15:28:15,857 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149 [606])
+2023-05-19 15:28:15,937 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149
+2023-05-19 15:28:15,938 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\aether-connector-okhttp-0.17.8.jar
+2023-05-19 15:28:15,939 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-cli-1.4.jar
+2023-05-19 15:28:15,941 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-io-2.6.jar
+2023-05-19 15:28:15,942 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\commons-lang3-3.8.1.jar
+2023-05-19 15:28:15,942 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\guice-4.2.2-no_aop.jar
+2023-05-19 15:28:15,943 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\jansi-2.4.0.jar
+2023-05-19 15:28:15,943 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-artifact-3.8.6.jar
+2023-05-19 15:28:15,944 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-builder-support-3.8.6.jar
+2023-05-19 15:28:15,945 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-compat-3.8.6.jar
+2023-05-19 15:28:15,945 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-core-3.8.6.jar
+2023-05-19 15:28:15,946 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-embedder-3.8.6.jar
+2023-05-19 15:28:15,946 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-3.8.6.jar
+2023-05-19 15:28:15,947 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-model-builder-3.8.6.jar
+2023-05-19 15:28:15,947 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-plugin-api-3.8.6.jar
+2023-05-19 15:28:15,948 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-repository-metadata-3.8.6.jar
+2023-05-19 15:28:15,949 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-api-1.6.3.jar
+2023-05-19 15:28:15,949 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-connector-basic-1.6.3.jar
+2023-05-19 15:28:15,950 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-impl-1.6.3.jar
+2023-05-19 15:28:15,951 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-provider-3.8.6.jar
+2023-05-19 15:28:15,952 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-spi-1.6.3.jar
+2023-05-19 15:28:15,953 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-transport-wagon-1.6.3.jar
+2023-05-19 15:28:15,953 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-resolver-util-1.6.3.jar
+2023-05-19 15:28:15,954 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-3.8.6.jar
+2023-05-19 15:28:15,954 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-settings-builder-3.8.6.jar
+2023-05-19 15:28:15,955 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\maven-shared-utils-3.3.4.jar
+2023-05-19 15:28:15,956 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okhttp-3.14.1.jar
+2023-05-19 15:28:15,956 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\okio-1.17.3.jar
+2023-05-19 15:28:15,957 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.inject-0.3.5.jar
+2023-05-19 15:28:15,958 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\org.eclipse.sisu.plexus-0.3.5.jar
+2023-05-19 15:28:15,958 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-build-api-0.0.7.jar
+2023-05-19 15:28:15,959 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-cipher-2.0.jar
+2023-05-19 15:28:15,961 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-classworlds-2.6.0.jar
+2023-05-19 15:28:15,962 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-component-annotations-2.1.0.jar
+2023-05-19 15:28:15,963 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-interpolation-1.26.jar
+2023-05-19 15:28:15,963 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-sec-dispatcher-2.0.jar
+2023-05-19 15:28:15,964 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\plexus-utils-3.3.1.jar
+2023-05-19 15:28:15,964 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-file-3.5.1.jar
+2023-05-19 15:28:15,965 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.8.604.20221130-2149\jars\wagon-provider-api-3.5.1.jar
+2023-05-19 15:28:15,971 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_30.1.0.v20221112-0806 [10])
+2023-05-19 15:28:15,993 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\com.google.guava_30.1.0.v20221112-0806.jar
+2023-05-19 15:28:15,993 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_1.7.36 [918])
+2023-05-19 15:28:15,996 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\slf4j.api_1.7.36.jar
+2023-05-19 15:28:15,996 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.inject_1.0.0.v20220405-0441 [32])
+2023-05-19 15:28:16,002 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\javax.inject_1.0.0.v20220405-0441.jar
+2023-05-19 15:28:16,002 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20221112-0806 [30])
+2023-05-19 15:28:16,041 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: D:\Softwares\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20221112-0806.jar
+2023-05-19 15:28:16,048 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-zuulapi-gateway-app.zip_expanded\citibank-zuulapi-gateway-app":
+2023-05-19 15:28:16,050 [Worker-50: Launching citibank-zuulapi-gateway-app] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always package
+2023-05-19 15:35:12,490 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-05-19 15:35:16,767 [Worker-50: Launching citibank-zuulapi-gateway-app (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-zuulapi-gateway-app.zip_expanded\citibank-zuulapi-gateway-app":
+2023-05-19 15:35:16,768 [Worker-50: Launching citibank-zuulapi-gateway-app (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always package
+2023-05-19 15:37:33,194 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:37:33,267 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 15:37:33,423 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:37:33,436 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:37:33,437 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-account-service-demo.zip_expanded\citibank-account-service-demo\src\test\resources
+2023-05-19 15:37:35,337 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:37:35,339 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 15:37:35,832 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:37:35,846 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:37:35,846 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-service-discovery-app.zip_expanded\citibank-service-discovery-app\src\test\resources
+2023-05-19 15:37:38,429 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:37:38,433 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 15:37:38,566 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:37:38,596 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:37:38,597 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-wallet-service-demo.zip_expanded\citibank-wallet-service-demo\src\test\resources
+2023-05-19 15:37:41,273 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:37:41,273 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-05-19 15:37:41,275 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 15:37:41,392 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:37:41,401 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:37:41,402 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-05-19 15:37:41,402 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\simple-app2.zip_expanded\simple-app2\src\test\resources
+2023-05-19 15:37:52,715 [Worker-57: Launching citibank-zuulapi-gateway-app] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-zuulapi-gateway-app.zip_expanded\citibank-zuulapi-gateway-app":
+2023-05-19 15:37:52,716 [Worker-57: Launching citibank-zuulapi-gateway-app] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always package
+2023-05-19 15:43:43,438 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:43:43,466 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 15:43:43,473 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:43:43,481 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:43:43,481 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-wallet-service-demo.zip_expanded\citibank-wallet-service-demo\src\test\resources
+2023-05-19 15:43:51,982 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:43:51,984 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 15:43:51,989 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:43:51,997 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:43:51,998 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-wallet-service-demo.zip_expanded\citibank-wallet-service-demo\src\test\resources
+2023-05-19 15:49:31,432 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:49:31,435 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 15:49:31,439 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:49:31,450 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:49:31,451 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-wallet-service-demo.zip_expanded\citibank-wallet-service-demo\src\test\resources
+2023-05-19 15:49:33,018 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:49:33,022 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 15:49:33,026 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 15:49:33,033 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 15:49:33,034 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-wallet-service-demo.zip_expanded\citibank-wallet-service-demo\src\test\resources
+2023-05-19 17:09:05,621 [Worker-85: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:auth-server-demo:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\auth-server-demo.zip_expanded\auth-server-demo\pom.xml.
+2023-05-19 17:09:12,595 [Worker-86: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:auth-server-demo:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\auth-server-demo.zip_expanded\auth-server-demo\pom.xml.
+2023-05-19 17:09:24,316 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:09:24,318 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 17:09:24,436 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 17:09:24,464 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:09:24,465 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\auth-server-demo.zip_expanded\auth-server-demo\src\test\resources
+2023-05-19 17:09:34,270 [Worker-89: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:auth-server-demo:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\auth-server-demo.zip_expanded\auth-server-demo\pom.xml.
+2023-05-19 17:09:35,123 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:09:35,135 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 17:09:35,245 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 17:09:35,255 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:09:35,256 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\auth-server-demo.zip_expanded\auth-server-demo\src\test\resources
+2023-05-19 17:09:37,886 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:09:37,887 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 17:09:37,887 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 17:09:37,895 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:09:37,895 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\auth-server-demo.zip_expanded\auth-server-demo\src\test\resources
+2023-05-19 17:10:22,061 [Worker-85: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:secured-microservice-demo:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\secured-microservice-demo.zip_expanded\secured-microservice-demo\pom.xml.
+2023-05-19 17:10:24,465 [Worker-84: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:secured-microservice-demo:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\secured-microservice-demo.zip_expanded\secured-microservice-demo\pom.xml.
+2023-05-19 17:10:27,159 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:10:27,163 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 17:10:27,210 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 17:10:27,252 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:10:27,253 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\secured-microservice-demo.zip_expanded\secured-microservice-demo\src\test\resources
+2023-05-19 17:10:34,291 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:10:34,300 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 17:10:34,343 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 17:10:34,370 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:10:34,371 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\secured-microservice-demo.zip_expanded\secured-microservice-demo\src\test\resources
+2023-05-19 17:10:34,898 [Worker-82: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:secured-microservice-demo:0.0.1-SNAPSHOT @ D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\secured-microservice-demo.zip_expanded\secured-microservice-demo\pom.xml.
+2023-05-19 17:10:37,235 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:10:37,255 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 17:10:37,258 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 17:10:37,266 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 17:10:37,267 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\secured-microservice-demo.zip_expanded\secured-microservice-demo\src\test\resources
+2023-05-19 17:37:32,840 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-05-19 17:37:36,022 [Worker-94: Launching auth-server-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\auth-server-demo.zip_expanded\auth-server-demo":
+2023-05-19 17:37:36,023 [Worker-94: Launching auth-server-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always package
+2023-05-19 17:39:09,725 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-05-19 17:39:13,681 [Worker-95: Launching secured-microservice-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\secured-microservice-demo.zip_expanded\secured-microservice-demo":
+2023-05-19 17:39:13,682 [Worker-95: Launching secured-microservice-demo] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always package
+2023-05-19 18:18:38,831 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 18:18:38,889 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-19 18:18:38,895 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 18:18:38,904 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 18:18:38,905 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-service-discovery-app.zip_expanded\citibank-service-discovery-app\src\test\resources
+2023-05-19 18:19:01,219 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 18:19:01,220 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 18:19:01,221 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-19 18:19:01,232 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-19 18:19:01,233 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-service-discovery-app.zip_expanded\citibank-service-discovery-app\src\test\resources
+2023-05-19 18:20:17,677 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-05-19 18:20:21,699 [Worker-101: Launching citibank-service-discovery-app (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-service-discovery-app.zip_expanded\citibank-service-discovery-app":
+2023-05-19 18:20:21,699 [Worker-101: Launching citibank-service-discovery-app (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always package
+2023-05-19 18:25:52,776 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2023-05-19 18:25:58,082 [Worker-106: Launching citibank-service-discovery-app (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\Training Stuffs\Corporate Clients\Citi Bank\May-2023-B2\citibank-service-discovery-app.zip_expanded\citibank-service-discovery-app":
+2023-05-19 18:25:58,087 [Worker-106: Launching citibank-service-discovery-app (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always package
