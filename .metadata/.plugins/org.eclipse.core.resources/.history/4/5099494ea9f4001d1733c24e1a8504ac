@@ -1,0 +1,9 @@
+package com.citibank.citibankwalletservicedemo;
+
+import org.springframework.stereotype.Service;
+
+// should use RestTemplate present in spring container & call Account microservice
+@Service // registers the object as a service in spring container
+public class WalletService {
+
+}

@@ -1,0 +1,39 @@
+package com.citibank.citibankwalletservicedemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+
+// should use RestTemplate present in spring container & call Account microservice
+@Service // registers the object as a service in spring container
+public class WalletService {
+
+	// use @Autowired to let spring to supply RestTemplate
+	@Autowired // spring supplies RestTemplate object to this property
+	private RestTemplate rest; // this object can send request using GET, POST, PUT, DELETE
+	
+	@Autowired
+	private AccountClient accountClient;
+	
+	// method that sends request to remote service
+	@CircuitBreaker(name = "walletInstance", fallbackMethod = "fallback")
+	public Wallet initializeWallet() {
+		//String url = "http://AMS/account/balance";
+		// Request = Get http://AMS/account/balance 
+		// Response = { "port", "balance"}
+		//Wallet wallet = rest.getForObject(url, Wallet.class); // initializes port & balance of Wallet
+		System.out.println("**** Request is reaching the remote service ****");
+		Wallet wallet = accountClient.fetchAccountBalance();  // sends Get http://AMS/account/balance
+		wallet.setWalletNumber(Double.valueOf(wallet.getBalance() * 31).intValue());
+		wallet.setDescription("Account Microservice is running in port: "+wallet.getPort());
+		return wallet;
+	}
+	// this method is automatically executed when the request fails and also it will be executed when the state is open
+	// without executing the initializeWallet()
+	public Wallet fallback(Throwable t) {
+		System.out.println("******** Fallback is executed *******");
+		System.out.println("Exception: "+t.getMessage());
+	}
+}

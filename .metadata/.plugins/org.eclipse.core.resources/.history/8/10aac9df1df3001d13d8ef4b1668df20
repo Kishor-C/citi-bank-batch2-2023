@@ -1,0 +1,19 @@
+package com.citibank.simpleapp2.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/v1")
+public class SimpleController {
+
+	@GetMapping(path = "/test")
+	public ResponseEntity<Object> greet() {
+		double random = Math.random();
+		return "Hello Everyone!";
+	}
+	
+	
+}

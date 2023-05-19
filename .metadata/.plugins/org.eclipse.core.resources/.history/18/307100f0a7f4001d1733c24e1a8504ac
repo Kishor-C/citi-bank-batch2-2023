@@ -1,0 +1,18 @@
+package com.citibank.citibankwalletservicedemo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+
+@SpringBootApplication
+@EnableEurekaClient
+public class CitibankWalletServiceDemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CitibankWalletServiceDemoApplication.class, args);
+	}
+	// Register the RestTemplate in the spring container
+	// Use load balancer in the RestTemplate
+	
+
+}

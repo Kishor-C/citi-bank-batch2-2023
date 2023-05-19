@@ -1,0 +1,12 @@
+server.port=9091
+spring.application.name=wms
+
+# we need to expose the endpoints to see the applicaiton status for that we need below 3 properties
+
+# endpoints like /health, /status, /info we can see
+management.endpoints.web.exposure.include=*
+# endpoint.health must always be shown
+management.endpoint.health.show-details=always
+# enabling the circuit breaker health to be shown
+management.health.circuitbreakers.enabled=true
+

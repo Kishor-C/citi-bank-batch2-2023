@@ -1,0 +1,10 @@
+package com.citibank.citibankzuulapigatewayapp;
+
+import org.springframework.context.annotation.Configuration;
+
+import com.netflix.zuul.ZuulFilter;
+
+@Configuration
+public class ZuulPreFilter extends ZuulFilter {
+
+}

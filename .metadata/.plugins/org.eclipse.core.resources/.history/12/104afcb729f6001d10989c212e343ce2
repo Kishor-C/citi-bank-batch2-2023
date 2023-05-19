@@ -1,0 +1,8 @@
+server.port=5555
+spring.application.name=zuul-app
+
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=true
+
+# endpoints to see the zuul routes
+management.endpoints.web.exposure.include=*

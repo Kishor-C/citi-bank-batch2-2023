@@ -1,0 +1,5 @@
+package com.citibank.citibankwalletservicedemo;
+
+public class WalletService {
+
+}

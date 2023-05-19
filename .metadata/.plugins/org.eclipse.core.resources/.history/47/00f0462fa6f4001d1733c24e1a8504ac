@@ -1,0 +1,6 @@
+package com.citibank.citibankwalletservicedemo;
+
+// this will initialize port & balance properties
+public class Wallet {
+
+}

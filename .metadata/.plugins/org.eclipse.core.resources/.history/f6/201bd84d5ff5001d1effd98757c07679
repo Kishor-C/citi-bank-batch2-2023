@@ -1,0 +1,8 @@
+package com.citibank.citibankwalletservicedemo;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient("http://AMS/")
+public interface AccountClient {
+
+}

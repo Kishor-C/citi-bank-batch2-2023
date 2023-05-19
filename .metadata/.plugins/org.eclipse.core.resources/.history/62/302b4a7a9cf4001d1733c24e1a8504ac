@@ -1,0 +1,20 @@
+package com.citibank.citibankaccountservicedemo;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController // registers this object in the spring container
+@RequestMapping("/account") // entry point to this webservice
+public class AccountController {
+
+	@Value("${server.port}") // injects server.port value present in the property file to the port variable
+	private String port; 
+	
+	@GetMapping(path = "/balance")
+	public ResponseEntity<Object> getBalance() {
+		
+	}
+}
