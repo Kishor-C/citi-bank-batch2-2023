@@ -3,7 +3,8 @@ package com.citibank.citibankwalletservicedemo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient("http://AMS/")
+// use the zuul api url for account microservice
+@FeignClient("http://zuul-app/api/account-app/")
 public interface AccountClient {
 
 	// a method that will have a GET mapping with the URL
